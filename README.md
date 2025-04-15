@@ -15,12 +15,14 @@ Hyperspectral imaging (HSI) offers detailed spectral information across waveleng
 
 ## Table of Contents
 
-1.  [Introduction](#introduction)
-2.  [Problem Statement](#problem-statement)
-3.  [Directory Structure](#directory-structure)
+1.  [Introduction](#1-introduction)
+2.  [Problem Statement](#2-problem-statement)
+3.  [Directory Structure](#3-directory-structure)
+4.  [Dependencies](#4-dependencies)
 
 
 ## 1. Introduction
+
 
 ### Background
 
@@ -46,7 +48,7 @@ Dual-Regression-Based-Denoising-for-Improved-Mineral-Detection-in-Hyperspectral-
 
 
 
-Dependencies
+## 4. Dependencies
 
 List the required libraries and their versions.  For example:
 
