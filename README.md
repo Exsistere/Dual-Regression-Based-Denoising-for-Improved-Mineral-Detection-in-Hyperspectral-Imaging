@@ -1,38 +1,61 @@
-# Remote-Sensing-for-Mineral-Exploration-Demo
-Remote sensing python skills demonstration
+# Dual-Regression-Based Denoising for Improved Mineral Detection in Hyperspectral Imaging
 
-## Contact and Professional Information
-For any inquiries or professional connections, fill free to reach out to me.
+## Overview
 
-*Background:* Remote Sensing Data Scientist and Algorithm Developer with expertise in ML/DL models, data engineering, and satellite imaging.
-
----
-
-*Note: This project is part of my professional portfolio at Weizmann Institute of Science and TierraSpec and showcases skills relevant to mineral exploration, space science and agri-tech applications.*
-
-# Geospatial Analysis of Cuprite Nevada for Mineral Exploration Using Hyperspectral Imaging Processing
-
-This repository contains a Jupyter notebook that demonstrates a basic geospatial analysis for mineral exploration in the Cuprite Nevada area. The analysis focuses on processing and analyzing hyperspectral satellite imagery, spectroscopy and geospatial data to identify potential areas for mineral exploration.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Installing
-Clone the repository
-
-### Prerequisites
-
-`pip install -r requierements.txt`
-
-### Data Preparation
-
-1. Download the required data of EnMAP satellite (hyperspectral) from the provided link: [Download Data](https://drive.google.com/file/d/1CM63DXYgYX_TBFFIBlrXX1rQTzjWAVPn/view?usp=sharing)
-2. Unzip the file into the `Data/Cuprite Nevada` folder within this repository.
-
-## Running the Notebook
-
-Run the Example.ipynb Jupyter notebook:
+This repository contains the code and resources for a project focused on enhancing mineral detection in hyperspectral images (HSI) using a dual-regression-based denoising approach. Hyperspectral imaging captures detailed spectral information, enabling precise mineral identification. The project addresses challenges like noise and high dimensionality in HSI data to improve the accuracy and reliability of mineral detection.
 
 
+## Project Synopsis
+
+This project was submitted in partial fulfillment of the requirements for the degree of Bachelor of Technology in the Department of Computer Science & Engineering at Amity University Mumbai during the academic year 2024-25.
+
+## Abstract
+
+Hyperspectral imaging (HSI) offers detailed spectral information across wavelengths for mineral exploration. This study examines the use of HSI for mineral detection, leveraging preprocessing techniques like noise reduction and atmospheric correction, along with advanced methods such as spectral unmixing, feature extraction, and classification algorithms. The project utilizes spectral libraries and machine learning methods, including support vector machines (SVM), random forests, and deep learning, to improve mineral identification. This implementation uses a dual-regression-based denoising method to enhance the quality of hyperspectral images, thereby improving mineral detection accuracy.
+
+## Table of Contents
+
+1.  [Introduction](#introduction)
+2.  [Problem Statement](#problem-statement)
+3.  [Directory Structure](#directory-structure)
+
+
+## 1. Introduction
+
+### Background
+
+Mineral detection and mapping play an essential role in industries such as mining, environmental monitoring, and planetary exploration. Hyperspectral imaging (HSI) has emerged as a transformative technology, offering unparalleled capabilities in mineral detection and classification. This project focuses on addressing the challenges of noise in HSI data through a dual-regression-based denoising approach.
+
+## 2. Problem Statement
+
+To enhance the accuracy and reliability of mineral detection in hyperspectral imagery by mitigating the impact of noise through an effective denoising technique.
+
+## 3. Directory Structure
+
+Dual-Regression-Based-Denoising-for-Improved-Mineral-Detection-in-Hyperspectral-Imaging/
+├── data/ # Contains the hyperspectral image data
+├── models/ # Trained models
+├── src/ # Source code
+│ ├── denoising.py # Denoising implementation
+│ ├── feature_extraction.py # Feature extraction methods
+│ ├── classification.py # Classification algorithms
+│ └── utils.py # Utility functions
+├── notebooks/ # Jupyter notebooks for experimentation
+├── README.md # This file
+└── LICENSE
+
+
+
+Dependencies
+
+List the required libraries and their versions.  For example:
+
+-   Python 3.8+
+-   TensorFlow 2.x
+-   NumPy
+-   Scikit-learn
+-   Matplotlib
+-   GDAL
+-   MATLAB
+Installation using pip:
 
